@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add in the head section -->
+<style>
+    /* Heart cursor trail */
+    body {
+        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="%23ff6b6b"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>'), auto;
+    }
+</style>
+
+
+</head>
+<body>
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+        
+                <!-- Add in the hero section after your name -->
+                <h1>Hi, I'm <span>Gems!</span> <span class="header-heart">❤</span></h1>
+
+                <h2>Frontend Developer</h2>
+                <p>I create beautiful, responsive websites that help businesses grow online.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="GEMS.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="ivan.png" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <p>I am a dedicated student passionate about the IT industry, always willing to learn and improve.</p>
+                    <p>My goals are to build strong technical skills, gain real-world experience, and contribute to innovative projects that make a difference in the field.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, SEO optimization</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Flexbox, Grid, animations, responsive design</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, async programming</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <p>Components, hooks, context API, React Router</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="ayy.png" alt="Project 1">
+                    <div class="project-info">
+                        <div class="project-header">
+                            
+                            <div>
+                                <h3>E-commerce Website</h3>
+                                <p class="project-owner-name">Alex Johnson</p>
+                                <!-- Add to your project cards (inside project-info div) -->
+<button class="like-btn">❤</button>
+                            </div>
+                        </div>
+                        <p>A fully responsive online store with cart functionality and payment integration.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="project">
+                    <img src="wew.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A productivity app for organizing tasks with drag-and-drop functionality.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="yai.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather information with 5-day forecast using API integration.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Photo Albums Section -->
+<section id="albums" class="albums">
+    <div class="container">
+        <h2 class="section-title">Photo Albums</h2>
+        <div class="albums-container">
+            <!-- Album 1 -->
+            <div class="album">
+                <div class="album-cover" onclick="openAlbum('travel')">
+                    <img src="pip.jpg" alt="Travel Photos">
+                    <div class="album-overlay">
+                    
+                    
+                    </div>
+                </div>
+                <button class="btn view-album" onclick="openAlbum('travel')">
+            </div>
+            
+            <!-- Album 2 -->
+            <div class="album">
+                <div class="album-cover" onclick="openAlbum('nature')">
+                    <img src="pupu.jpg" alt="Nature Photos">
+                    <div class="album-overlay">
+            
+                    </div>
+                </div>
+                <button class="btn view-album" onclick="openAlbum('nature')">
+            </div>
+           <!-- Album 3-->
+            <div class="album">
+                <div class="album-cover" onclick="openAlbum('nature')">
+                    <img src="popo.jpg" alt="Nature Photos">
+                    <div class="album-overlay">
+            
+                    </div>
+                </div>
+                <button class="btn view-album" onclick="openAlbum('nature')">
+            </div>
+            <!-- Album 4 -->
+            <div class="album">
+                <div class="album-cover" onclick="openAlbum('nature')">
+                    <img src="po.jpg" alt="Nature Photos">
+                    <div class="album-overlay">
+            
+                    </div>
+                </div>
+                <button class="btn view-album" onclick="openAlbum('nature')">
+            </div>
+            
+            <!-- Album 5 -->
+            <div class="album">
+                <div class="album-cover" onclick="openAlbum('events')">
+                    <img src="pop.jpg" alt="Event Photos">
+                    <div class="album-overlay">
+
+       
+                    </div>
+                </div>
+                <button class="btn view-album" onclick="openAlbum('events')">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Album Gallery Modal -->
+<div id="album-modal" class="album-modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeAlbum()">&times;</span>
+        <h2 id="album-title">Album Title</h2>
+        
+        <div class="album-gallery">
+            <!-- Photos will be inserted here by JavaScript -->
+        </div>
+        
+        <div class="album-controls">
+            <button class="nav-btn" onclick="prevPhoto()"><i class="fas fa-chevron-left"></i></button>
+            <span id="photo-counter">1 of 10</span>
+            <button class="nav-btn" onclick="nextPhoto()"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+
+<!-- Quiz Gallery Section -->
+<section id="quizzes" class="quizzes">
+    <div class="container">
+        <h2 class="section-title">Quizzes</h2>
+        <div class="quiz-filter">
+            <button class="btn filter-btn active" data-filter="all">All</button>
+        </div>
+        <div class="quiz-gallery">
+            <div class="quiz-item" data-category="javascript">
+                <img src="quiz1.jpg" alt="JavaScript Quiz">
+                <div class="quiz-info">
+                    <h3>Quiz#1</h3>
+                </div>
+            </div>
+            <div class="quiz-item" data-category="react">
+                <img src="quiz2.jpg" alt="React Quiz">
+                <div class="quiz-info">
+                    <h3>Quiz#2</h3>
+                </div>
+            </div>
+            <div class="quiz-item" data-category="design">
+                <img src="quiz3.jpg" alt="Design Quiz">
+                <div class="quiz-info">
+                    <h3>Quiz#3</h3>
+                </div>
+            </div>
+            <div class="quiz-item" data-category="javascript">
+                <img src="longquiz.jpg" alt="Advanced JS Quiz">
+                <div class="quiz-info">
+                    <h3>Long Quiz</h3>
+                </div>
+            </div>
+                <div class="quiz-item" data-category="javascript">
+                    <img src="midterm.jpg" alt="Advanced JS Quiz">
+                    <div class="quiz-info">
+                        <h3>Final Exam</h3>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div id="quizModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Quiz Image">
+        <h3 id="modalTitle"></h3>
+    </div>
+</div>
+<!-- Lightbox Modal (for photo albums) -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-header">
+            <h3 id="lightbox-title">Album Title</h3>
+            <div class="lightbox-nav">
+                <button id="prev-photo" class="nav-btn"><i class="fas fa-chevron-left"></i></button>
+                <span id="photo-counter">1 of 10</span>
+                <button id="next-photo" class="nav-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="lightbox-body">
+            <img id="lightbox-image" src="" alt="Album Photo">
+        </div>
+    </div>
+</div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> gemsivan46@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 09277480967</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Silang Cavite</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    
+<!-- Add to your contact section -->
+<div class="heart-rating">
+    <div class="heart">❤</div>
+    <div class="heart">❤</div>
+    <div class="heart">❤</div>
+    <div class="heart">❤</div>
+    <div class="heart">❤</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div id="particles-js"></div>
+    <div class="bubbles">
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+</div>
+<canvas id="canvas-bg"></canvas>
+<div class="combined-bg"></div>
+<div id="particles-js"></div>
+
+<!-- Add in the footer before the closing body tag -->
+<div class="heart-bg heart-bg-1">❤</div>
+<div class="heart-bg heart-bg-2">❤</div>
+<div class="heart-bg heart-bg-3">❤</div>
+<div id="heart-cursor" class="heart-cursor"></div>
+
+<script>
+    // Get modal elements
+    const modal = document.getElementById("quizModal");
+    const modalImage = document.getElementById("modalImage");
+    const modalTitle = document.getElementById("modalTitle");
+    const closeBtn = document.querySelector(".close");
+    
+    // Get all quiz items
+    const quizItems = document.querySelectorAll(".quiz-item");
+    
+    // Add click event to each quiz item
+    quizItems.forEach(item => {
+        item.addEventListener("click", () => {
+            const img = item.querySelector("img");
+            const title = item.querySelector("h3");
+    
+            modalImage.src = img.src;
+            modalImage.alt = img.alt;
+            modalTitle.textContent = title.textContent;
+    
+            modal.style.display = "block";
+        });
+    });
+    
+    // Close modal when clicking on the close button
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+    
+    // Also close modal if you click outside the modal content
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+    </script>
+    
+
+</body>
+</html>
